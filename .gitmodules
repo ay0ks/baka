@@ -1,0 +1,18 @@
+[submodule "bakaprotopy"]
+	path = bakaprotopy
+	url = https://github.com/ay0ks/bakaprotopy
+[submodule "bakaproto"]
+	path = bakaproto
+	url = https://github.com/ay0ks/bakaproto
+[submodule "bakalib"]
+	path = bakalib
+	url = https://github.com/ay0ks/bakalib
+[submodule "bakaserver"]
+	path = bakaserver
+	url = https://github.com/ay0ks/bakaserver
+[submodule "mann"]
+	path = mann
+	url = https://github.com/ay0ks/mann
+[submodule "bakaprotogen"]
+	path = bakaprotogen
+	url = https://github.com/ay0ks/bakaprotogen
