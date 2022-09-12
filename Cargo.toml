@@ -1,0 +1,23 @@
+[package]
+name = "baka"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+lazy_static = "1.4.0"
+quote = "1"
+protobuf = "3.1.0"
+obfstr = "0.4"
+bakalib = { version = "0.1.0", path = "./bakalib" }
+bakaproto = { version = "0.1.0", path = "./bakaproto" }
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+overflow-checks = true
+strip = true
